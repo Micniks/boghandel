@@ -1,0 +1,4 @@
+logicTest\OrderTest.class
+logicTest\BooksTest.class
+logicTest\FakeMapper.class
+persistenceTest\DBTest.class

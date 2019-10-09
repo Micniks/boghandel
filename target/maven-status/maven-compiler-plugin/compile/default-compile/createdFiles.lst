@@ -1,0 +1,6 @@
+persistence\BooksMapper.class
+presentation\FrontController.class
+logic\Books.class
+logic\Order.class
+persistence\DB.class
+persistence\Mapper.class

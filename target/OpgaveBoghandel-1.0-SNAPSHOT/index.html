@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body bgcolor="#FFFFD2">
+        <br>
+        <h1 align="center">Group 3's Bookstore</h1>
+        <h2 align="center">Welcome to our humble bookstore</h2>
+        <p align="center"><img src="decorations\\magic-book.png" alt="Bookstore Icon Stolen From The Internet" width="400" height="378"></p>
+        <br>
+        <form action="FrontController" method="POST">
+            <input type="hidden" name="cmd" value="Search" />
+            <p align="center"><input type="submit" value="Search & Buy"/></p>
+        </form>
+        <form action="FrontController" method="POST">
+            <input type="hidden" name="cmd" value="OrderHistory" />
+            <p align="center"><input type="submit" value="See Order History"/></p>
+        </form>
+    </body>
+</html>
